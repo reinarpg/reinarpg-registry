@@ -1,22 +1,22 @@
-# prismarine-registry
-[![NPM version](https://img.shields.io/npm/v/prismarine-registry.svg)](http://npmjs.com/package/prismarine-registry)
-[![Build Status](https://github.com/PrismarineJS/prismarine-registry/workflows/CI/badge.svg)](https://github.com/PrismarineJS/prismarine-registry/actions?query=workflow%3A%22CI%22)
+# reinarpg-registry
+[![NPM version](https://img.shields.io/npm/v/reinarpg-registry.svg)](http://npmjs.com/package/reinarpg-registry)
+[![Build Status](https://github.com/PrismarineJS/reinarpg-registry/workflows/CI/badge.svg)](https://github.com/PrismarineJS/reinarpg-registry/actions?query=workflow%3A%22CI%22)
 [![Discord](https://img.shields.io/badge/chat-on%20discord-brightgreen.svg)](https://discord.gg/GsEFRM8)
-[![Try it on gitpod](https://img.shields.io/badge/try-on%20gitpod-brightgreen.svg)](https://gitpod.io/#https://github.com/PrismarineJS/prismarine-registry)
+[![Try it on gitpod](https://img.shields.io/badge/try-on%20gitpod-brightgreen.svg)](https://gitpod.io/#https://github.com/PrismarineJS/reinarpg-registry)
 
-Creates an dynamic instance of node-minecraft-data.
+Creates an dynamic instance of node-reinarpg-data.
 
 ## Usage
 
 ```js
-const registry = require('prismarine-registry')('1.18')
+const registry = require('reinarpg-registry')('1.18')
 
 registry.blocksByName['stone'] // See information about stone
 ```
 
 ## API
 
-[See minecraft-data API](https://github.com/PrismarineJS/node-minecraft-data/blob/master/doc/api.md)
+[See reinarpg-data API](https://github.com/PrismarineJS/node-reinarpg-data/blob/master/doc/api.md)
 
 ### mcpc
 
@@ -52,7 +52,7 @@ Mapping to dimension data object containing dimension `name`, `minY` and `height
 ```js
 // In a client
 const { createClient } = require('bedrock-protocol');
-const registry = require('prismarine-registry')('bedrock_1.19.50');
+const registry = require('reinarpg-registry')('bedrock_1.19.50');
 
 const client = createClient({
   'host': '127.0.0.1'

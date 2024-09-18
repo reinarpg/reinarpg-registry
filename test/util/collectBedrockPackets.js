@@ -1,6 +1,6 @@
 const bedrock = require('bedrock-protocol')
 const { startServer } = require('minecraft-bedrock-server')
-const debug = require('debug')('prismarine-registry')
+const debug = require('debug')('reinarpg-registry')
 const path = require('path')
 
 async function collectPackets (version, names = ['start_game'], cb) {

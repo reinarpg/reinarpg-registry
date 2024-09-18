@@ -1,5 +1,5 @@
-import { IndexedData } from 'minecraft-data'
-import { NBT } from 'prismarine-nbt'
+import { IndexedData } from 'reinarpg-data'
+import { NBT } from 'reinarpg-nbt'
 
 declare function loader(mcVersion: string): loader.Registry
 declare namespace loader {

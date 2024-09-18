@@ -1,4 +1,4 @@
-const Registry = require('prismarine-registry')
+const Registry = require('reinarpg-registry')
 const collectPackets = require('./util/collectBedrockPackets')
 const assert = require('assert')
 
